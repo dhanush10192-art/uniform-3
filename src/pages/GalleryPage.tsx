@@ -14,21 +14,21 @@ type Product = {
 
 // --- Real Gallery Image Data ---
 const boysImages = [
-    '/Gallery/BOYS/1.jpg', '/Gallery/BOYS/2.jpg', '/Gallery/BOYS/3.jpg',
-    '/Gallery/BOYS/4.jpg', '/Gallery/BOYS/5.jpg', '/Gallery/BOYS/6.jpg',
-    '/Gallery/BOYS/7.jpg', '/Gallery/BOYS/8.jpg', '/Gallery/BOYS/9.jpg',
-    '/Gallery/BOYS/10.jpg', '/Gallery/BOYS/11.jpg',
-    '/Gallery/BOYS/B1.jpg', '/Gallery/BOYS/B2.webp', '/Gallery/BOYS/B3.webp',
-    '/Gallery/BOYS/B4.jpg', '/Gallery/BOYS/B5.webp', '/Gallery/BOYS/B6.jpg',
-    '/Gallery/BOYS/B7.jpg', '/Gallery/BOYS/B8.webp', '/Gallery/BOYS/B9.jpg',
-    '/Gallery/BOYS/B10.jpg',
+    '/Gallery/BOYS/00001.jpg', '/Gallery/BOYS/0001.jpg', '/Gallery/BOYS/0002.jpg',
+    '/Gallery/BOYS/0003.jpg', '/Gallery/BOYS/0004.jpg', '/Gallery/BOYS/0005.jpg',
+    '/Gallery/SPORTS/S 1.jpg', '/Gallery/SPORTS/S 35.jpg', '/Gallery/SPORTS/S 36.jpg',
+    '/Gallery/SPORTS/S 37.jpg', '/Gallery/SPORTS/S 38.jpg',
+    '/Gallery/SPORTS/S 39.jpg', '/Gallery/SPORTS/S 40.jpg', '/Gallery/SPORTS/S 41.jpg',
+    '/Gallery/SPORTS/S 42.jpg', '/Gallery/SPORTS/S 43.jpg',
+    '/Gallery/SPORTS/S 44.jpg', '/Gallery/SPORTS/S 45.jpg', '/Gallery/SPORTS/S 46.jpg',
+    '/Gallery/SPORTS/S 47.jpg', '/Gallery/SPORTS/S 48.jpg',
 ];
 
 const girlsImages = [
-    '/Gallery/GIRLS/1.jpg', '/Gallery/GIRLS/2.jpg', '/Gallery/GIRLS/3.jpg',
-    '/Gallery/GIRLS/4.jpg', '/Gallery/GIRLS/5.jpg', '/Gallery/GIRLS/6.jpg',
-    '/Gallery/GIRLS/7.jpg', '/Gallery/GIRLS/8.jpg', '/Gallery/GIRLS/9.jpg',
-    '/Gallery/GIRLS/10.png',
+    '/Gallery/GIRLS/01.webp', '/Gallery/GIRLS/02.jpg', '/Gallery/GIRLS/03.jpg',
+    '/Gallery/GIRLS/04.jpg', '/Gallery/GIRLS/08.jpg', '/Gallery/GIRLS/06.jpg',
+    '/Gallery/GIRLS/07.jpg', '/Gallery/GIRLS/08.jpg', '/Gallery/GIRLS/02.jpg',
+    '/Gallery/GIRLS/06.jpg',
 ];
 
 const sportsImages = [
