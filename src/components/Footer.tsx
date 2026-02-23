@@ -86,7 +86,7 @@ const Footer = () => {
         <div className="border-t border-gray-700 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-gray-400 text-sm">
-              &copy; 2024 Fast Colour. All rights reserved.
+              &copy; 2026 FastColors. All rights reserved.
             </p>
             <div className="flex gap-6 text-sm">
               <a href="#" className="hover:text-blue-400 transition-colors">Privacy Policy</a>
