@@ -22,7 +22,7 @@ const Footer = () => {
                   className="h-12 w-auto"
                 />
               </div>
-              <span className="text-white font-bold text-lg">Fast Colour</span>
+              <span className="text-white font-bold text-lg">FastColors</span>
             </div>
             <p className="text-gray-400 mb-6 leading-relaxed">
               Fast Colour delivers premium custom uniforms with vibrant sublimation prints, durable fabrics, precise stitching, quick turnaround, personalized designs, reliable quality, and comfortable fits for every team.
