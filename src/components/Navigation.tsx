@@ -70,7 +70,7 @@ const Navigation = () => {
             className="flex items-center space-x-3 hover:opacity-80 transition-opacity"
           >
             <img
-              src="/500X500.png"
+              src="/500X1500.png"
               alt="Cricket Jersey Designs Logo"
               className="h-12 w-auto"
             />
