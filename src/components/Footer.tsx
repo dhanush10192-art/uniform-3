@@ -14,16 +14,16 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mb-12">
           <div>
-            <div className="flex items-center space-x-3 mb-6">
+            <a href="/" className="flex items-center space-x-3 mb-6 hover:opacity-80 transition-opacity">
               <div className="w-10 h-10 bg-gradient-to-br from-blue-400 to-blue-600 rounded-lg flex items-center justify-center">
                 <img
-                  src="/500X1500.png"
+                  src="/500X500.png"
                   alt="Cricket Jersey Designs Logo"
                   className="h-12 w-auto"
                 />
               </div>
               <span className="text-white font-bold text-lg">FastColors</span>
-            </div>
+            </a>
             <p className="text-gray-400 mb-6 leading-relaxed">
               FastColors delivers premium custom uniforms with vibrant sublimation prints, durable fabrics, precise stitching, quick turnaround, personalized designs, reliable quality, and comfortable fits for every team.
             </p>
@@ -49,7 +49,7 @@ const Footer = () => {
               {quickLinks.map((link, index) => (
                 <li key={index}>
                   <a
-                    href={`#${link.toLowerCase()}`}
+                    href={link === 'Home' ? '/' : link === 'Gallery' ? '/gallery' : `/#${link.toLowerCase()}`}
                     className="hover:text-blue-400 transition-colors duration-300"
                   >
                     {link}
