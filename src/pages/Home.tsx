@@ -10,7 +10,7 @@ import Testimonials from '../components/Testimonials';
 
 const Home = () => {
   return (
-    <main className="pt-20">
+    <main className="pt-16 sm:pt-20">
       <Hero />
 
       {/* What We Do section */}

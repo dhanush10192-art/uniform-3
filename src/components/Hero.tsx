@@ -25,7 +25,7 @@ const Hero = () => {
 
 
       {/* 1. NEW VIDEO HEADER SECTION */}
-      <section className="relative w-full min-h-[600px] flex items-center overflow-hidden pt-20">
+      <section className="relative w-full min-h-[400px] sm:min-h-[500px] md:min-h-[600px] flex items-center overflow-hidden pt-16 sm:pt-20">
 
         {/* Background Video Layer */}
         <div className="absolute inset-0 z-0 bg-slate-950">
@@ -52,19 +52,19 @@ const Hero = () => {
         ></div>
 
         {/* Content Layer */}
-        <div className="relative z-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full flex items-center h-full">
-          <div className="w-full md:w-1/2 text-white p-4 md:p-0 text-center md:text-left">
-            <h1 className="text-3xl md:text-5xl font-medium mb-6 leading-tight drop-shadow-lg max-w-md">
+        <div className="relative z-20 max-w-7xl mx-auto px-3 sm:px-6 lg:px-8 w-full flex items-center h-full">
+          <div className="w-full md:w-1/2 text-white p-2 sm:p-4 md:p-0 text-center md:text-left">
+            <h1 className="text-2xl sm:text-3xl md:text-5xl font-medium mb-4 sm:mb-6 leading-tight drop-shadow-lg max-w-md mx-auto md:mx-0">
               Uniforms Designed <br />
               For The Best Days <br />
               Of Your Life.
             </h1>
-            <div className="flex flex-wrap gap-4 justify-center md:justify-start">
+            <div className="flex flex-wrap gap-3 sm:gap-4 justify-center md:justify-start">
               <a
                 href="https://wa.me/917812865788"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-white text-[#0a1d37] hover:bg-gray-100 text-lg font-bold py-3 md:py-4 px-8 md:px-12 rounded transition-all duration-300 shadow-xl hover:shadow-2xl transform hover:scale-105"
+                className="bg-white text-[#0a1d37] hover:bg-gray-100 text-sm sm:text-lg font-bold py-2.5 sm:py-3 md:py-4 px-6 sm:px-8 md:px-12 rounded transition-all duration-300 shadow-xl hover:shadow-2xl transform hover:scale-105"
               >
                 Explore Collection
               </a>
@@ -75,8 +75,8 @@ const Hero = () => {
 
 
       {/* 2. EXISTING SLIDER SECTION */}
-      <section className="bg-gray-50 py-16">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <section className="bg-gray-50 py-8 sm:py-12 md:py-16">
+        <div className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
 
           {/* Slider Section */}
           <div className="relative">
@@ -96,7 +96,7 @@ const Hero = () => {
             </button>
 
             {/* Card Slider */}
-            <div className="relative h-[250px] sm:h-[400px] md:h-[500px] w-full rounded-3xl overflow-hidden">
+            <div className="relative h-[220px] sm:h-[350px] md:h-[500px] w-full rounded-xl sm:rounded-3xl overflow-hidden">
               {jerseyImages.map((img, index) => (
                 <div
                   key={index}
@@ -153,42 +153,42 @@ const Hero = () => {
           </div>
 
           {/* Features/Trust Banner */}
-          <div className="mt-8 bg-uniform-primary rounded-xl py-8 px-4 sm:px-8 text-white shadow-xl">
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="mt-6 sm:mt-8 bg-uniform-primary rounded-xl py-5 sm:py-8 px-3 sm:px-8 text-white shadow-xl">
+            <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-8">
 
               {/* Feature 1 */}
-              <div className="flex items-center gap-4 border-b md:border-b-0 md:border-r border-blue-800 pb-4 md:pb-0 last:border-0">
-                <Truck size={40} className="text-white flex-shrink-0" strokeWidth={1.5} />
+              <div className="flex flex-col sm:flex-row items-center sm:items-center gap-2 sm:gap-4 border-b sm:border-b-0 md:border-r border-blue-800 pb-3 sm:pb-0 last:border-0 text-center sm:text-left">
+                <Truck size={28} className="text-white flex-shrink-0 sm:w-10 sm:h-10" strokeWidth={1.5} />
                 <div>
-                  <h3 className="font-bold text-lg uppercase">Fast Delivery</h3>
-                  <p className="text-blue-200 text-xs uppercase tracking-wide">All over India Delivery</p>
+                  <h3 className="font-bold text-xs sm:text-lg uppercase">Fast Delivery</h3>
+                  <p className="text-blue-200 text-[10px] sm:text-xs uppercase tracking-wide">All over India</p>
                 </div>
               </div>
 
               {/* Feature 2 */}
-              <div className="flex items-center gap-4 border-b md:border-b-0 md:border-r border-blue-800 pb-4 md:pb-0 last:border-0">
-                <RotateCcw size={40} className="text-white flex-shrink-0" strokeWidth={1.5} />
+              <div className="flex flex-col sm:flex-row items-center sm:items-center gap-2 sm:gap-4 border-b sm:border-b-0 md:border-r border-blue-800 pb-3 sm:pb-0 last:border-0 text-center sm:text-left">
+                <RotateCcw size={28} className="text-white flex-shrink-0 sm:w-10 sm:h-10" strokeWidth={1.5} />
                 <div>
-                  <h3 className="font-bold text-lg uppercase">7 Days Return</h3>
-                  <p className="text-blue-200 text-xs uppercase tracking-wide">If goods have problems</p>
+                  <h3 className="font-bold text-xs sm:text-lg uppercase">7 Days Return</h3>
+                  <p className="text-blue-200 text-[10px] sm:text-xs uppercase tracking-wide">If goods have problems</p>
                 </div>
               </div>
 
               {/* Feature 3 */}
-              <div className="flex items-center gap-4 border-b md:border-b-0 md:border-r border-blue-800 pb-4 md:pb-0 last:border-0">
-                <CreditCard size={40} className="text-white flex-shrink-0" strokeWidth={1.5} />
+              <div className="flex flex-col sm:flex-row items-center sm:items-center gap-2 sm:gap-4 border-b sm:border-b-0 md:border-r border-blue-800 pb-3 sm:pb-0 last:border-0 text-center sm:text-left">
+                <CreditCard size={28} className="text-white flex-shrink-0 sm:w-10 sm:h-10" strokeWidth={1.5} />
                 <div>
-                  <h3 className="font-bold text-lg uppercase">Secure Payment</h3>
-                  <p className="text-blue-200 text-xs uppercase tracking-wide">100% Secure Payment</p>
+                  <h3 className="font-bold text-xs sm:text-lg uppercase">Secure Payment</h3>
+                  <p className="text-blue-200 text-[10px] sm:text-xs uppercase tracking-wide">100% Secure</p>
                 </div>
               </div>
 
               {/* Feature 4 */}
-              <div className="flex items-center gap-4">
-                <Headphones size={40} className="text-white flex-shrink-0" strokeWidth={1.5} />
+              <div className="flex flex-col sm:flex-row items-center sm:items-center gap-2 sm:gap-4 text-center sm:text-left">
+                <Headphones size={28} className="text-white flex-shrink-0 sm:w-10 sm:h-10" strokeWidth={1.5} />
                 <div>
-                  <h3 className="font-bold text-lg uppercase">Customer Care</h3>
-                  <p className="text-blue-200 text-xs uppercase tracking-wide">10am to 7pm Except Sundays</p>
+                  <h3 className="font-bold text-xs sm:text-lg uppercase">Customer Care</h3>
+                  <p className="text-blue-200 text-[10px] sm:text-xs uppercase tracking-wide">10am - 7pm</p>
                 </div>
               </div>
 
