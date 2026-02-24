@@ -25,7 +25,7 @@ const Footer = () => {
               <span className="text-white font-bold text-lg">FastColors</span>
             </div>
             <p className="text-gray-400 mb-6 leading-relaxed">
-              Fast Colour delivers premium custom uniforms with vibrant sublimation prints, durable fabrics, precise stitching, quick turnaround, personalized designs, reliable quality, and comfortable fits for every team.
+              FastColors delivers premium custom uniforms with vibrant sublimation prints, durable fabrics, precise stitching, quick turnaround, personalized designs, reliable quality, and comfortable fits for every team.
             </p>
             <div className="flex gap-4">
               {socialLinks.map((social, index) => {
